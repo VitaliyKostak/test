@@ -1,0 +1,351 @@
+* {
+padding: 0;
+margin: 0;
+}
+body{
+    background-color: #fff;
+}
+input, textarea, button {
+    outline: none;
+    border: none;
+}
+.main-registration-login-block h1 {
+    font-family: 'LatoLight';
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+.wrap-registration_login-block div {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 35px;
+}
+.field-name {
+    margin-left: 28%; 
+}
+.input-registration_login-block {
+    width: 50%;
+    height: 100%;
+    margin-left: 25%;
+    padding-left: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 1px -1px rgba(0, 0, 0, 0.6);
+    background-color: #fff;
+    font-family: 'Latoregular';
+    font-size: 17px;
+}
+.button-registration_login-block{
+    width: 50%;
+    height: 100%;
+    margin-left: 25%;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px -1px rgba(0, 0, 0, 0.6);
+    background-color: #fff;
+    font-family: 'Latoregular';
+    font-size: 19px;
+    padding-bottom: 5px;
+}
+.main-registration-login-block a {
+    font-family: 'Latoregular';
+    margin-left: 25%;
+    margin-top: 40px;
+    font-size: 17px;
+    text-decoration: underline;
+    color: #000;
+} 
+ /* main_page */
+.side_bar {
+    position: fixed;
+    width: 23%;
+    height: 100vh;
+    border-right: 3px solid #1f2933;
+    padding-top: 15px;
+}
+ul {
+    list-style: none;
+    padding-left: 6%;
+}
+ul li, .login_registrationLinks {
+    margin-top: 15px;
+    letter-spacing: 1.2px;
+    font-family: 'LatoLight';
+    font-size: 20px;
+}
+ul li a, .login_registrationLinks a{
+ text-decoration: none;
+ color: #6a6b6d;
+ transition: all ease 500ms;
+}
+ul li a:hover, .login_registrationLinks a:hover{
+    font-family: 'Latoregular';
+}
+ul li span{
+    text-decoration: none;
+    color:#1f2933;
+    font-family: 'Latoregular';
+   }
+
+.wrap_userFullName {
+    margin-left: -15px;
+    border-bottom: 2px solid #1f2933;
+    padding-bottom: 10px;
+}
+.userFullName {
+    letter-spacing: 1.2px;
+    font-family: 'Latoregular';
+    padding-left: 10%;
+    font-size: 22px;
+    color: #1f2933;
+}
+.main_page h1 {
+    text-align: center;
+    font-family: 'LatoLight';
+    letter-spacing: 1px;
+    font-size: 24px;
+}
+/* user_id_page */
+.wrapNameBlock{
+    display: inline-block;
+    width: 30%;
+}
+.hostUserName {
+    letter-spacing: 1.2px;
+    margin-top: 15px;
+    text-align: left;
+    font-size: 22px;
+    color: #1f2933;
+    font-family: 'Latoregular'; 
+}
+a.hostUserName {
+    text-decoration: none;
+}
+a.hostUserName:hover{
+    text-decoration: underline;
+}
+.wrapUserTopBlock {
+    position: relative;
+}
+.wrapUserTopBlock .btnFriend {
+    position: absolute;
+}
+.btnFriend {
+    
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 0.7px;
+    color: #1f2933;
+    font-family: 'Latoregular';
+    background-color:#edf5fd;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.numberOfUserArticles {
+    margin-top: 10px;
+    text-align: left;
+    font-size: 13px;
+    letter-spacing: 0.7px;
+    color: #1f2933;
+    font-family: 'Latoregular';
+}
+.wrap-publications {
+    margin-top: 25px;
+}
+
+/* my_publications_page */
+.wrap-block-adder-publication {
+    width: 100%;
+    margin-top: 20px;
+    border-bottom: 1px solid #1f2933;
+    padding-bottom: 20px;
+}
+#my_publication_text {
+    width: 100%;
+    height: 100px;
+    font-family: 'Latoregular';
+    font-size: 17px;
+    border:1px solid #919599;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+#button_publication_adder {
+    margin-top: 10px;
+    padding: 10px 25px 10px 25px;
+    font-family: 'Latoregular';
+    font-size: 17px;
+    border:1px solid #919599;
+    background-color: #fff;
+    cursor: pointer;
+    color: #000;
+}
+#button_publication_adder[disabled] {
+    color: #000;
+}
+.wrap-my-publications {
+    width: 100%;
+    margin-top: 20px;
+}
+#count-publications {
+    color: #000;
+    font-family: 'LatoMedium';
+    font-size: 17px;
+}
+.wrap-publication {
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 10px;
+    border: 1px solid  #1f2933;;
+}
+.name-author {
+    font-family: 'Latoregular';
+    font-size: 17px; 
+    color: #919599;
+    padding-right: 30px;
+}
+a.name-author {
+    text-decoration: none;
+}
+a.name-author:hover{
+    text-decoration: underline;
+}
+.publication-time {
+    font-family: 'Latoregular';
+    font-size: 15px; 
+    color: #919599;
+}
+.delete-publication {
+    font-family: 'Latoregular';
+    float: right;
+    cursor: pointer;
+    font-size: 14px; 
+    color:rgb(175, 3, 3);
+}
+.body-publication {
+    max-width: 98%;
+    overflow: hidden;
+    font-family: 'Latoregular';
+    font-size: 17px; 
+    color: #000;
+    margin-top: 20px;
+}
+.btn-comments-publication {
+    font-family: 'Latoregular';
+    margin-top: 20px;
+    color: #919599;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.wrapBodyComments {
+    margin-top: 15px;
+}
+
+.commentValue {
+    width: 100%;
+    height: 50px;
+    font-family: 'Latoregular';
+    font-size: 15px;
+    border:1px solid #919599;
+    border-radius: 5px;
+    padding: 8px;
+    }
+.buttonCommentAdder {
+    margin-top: 10px;
+    padding: 4px 8px 4px 8px;
+    font-family: 'Latoregular';
+    font-size: 14px;
+    border:1px solid #919599;
+    background-color: #fff;
+    cursor: pointer;
+    color: #919599;
+}
+.wrapComments{
+    margin: 15px 0 15px 0;
+}
+.wrapComment {
+    padding: 10px 0 10px 5px;
+    border:1px solid #919599;
+    margin-top: 10px;
+}
+.commentAuthor {
+    display: inline-block;
+    margin-right: 20px;
+    font-family: 'LatoSemibold';
+    font-size: 13px;
+    color: #919599;
+}
+a.commentAuthor {
+    text-decoration: none;
+}
+a.commentAuthor:hover{
+    text-decoration: underline;
+}
+.commentPublicationTime {
+    font-family: 'LatoSemibold';
+    font-size: 13px;
+    color: #919599;
+}
+.deleteComment {
+    float: right;
+    padding-right: 15px;
+    color:rgb(175, 3, 3);
+    font-family: 'LatoSemibold';
+    font-size: 12px;
+    cursor: pointer;
+}
+.commentVal {
+    max-width: 98%;
+    overflow: hidden;
+    font-family: 'LatoSemibold';
+    font-size: 13px;
+}
+/* friend_list page */
+.wrapTabsLine {
+    width: 100%;
+}
+.wrapTab{
+    float: left;
+    width: 33%;
+}
+.tabName {
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Latoregular';
+    color: #6a6b6d;
+    cursor: default;
+}
+.tabName:hover {
+    font-family: 'Latoregular';
+}
+.activeTab {
+    color: #1f2933;
+}
+.friendList_page .wrapNameBlock {
+    margin-top: 22px;
+}
+/* all_users */
+.all_users h1 {
+    font-size: 19px;
+    font-family: 'Latoregular';
+    letter-spacing: 0.9px;
+    text-align: left;
+    margin-bottom: 17px;
+    color: #6a6b6d;
+}
+.wrapUserLink {
+    margin-bottom: 15px;
+}
+.all_users .userLink {
+    color: #1f2933;
+    font-size: 17px;
+    font-family: 'Latoregular';
+    text-decoration: none;
+    cursor: default;
+}
+.all_users .wrapUserLink a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
